@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build && npm run start",
-    "pm2": "pm2 start npm -f -- run build",
+    "pm2": "pm2 start npm -f --name 'nuxt-demo' -- run build",
     "start": "PORT=1200 nuxt start",
     "generate": "nuxt generate"
   },
