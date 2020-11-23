@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "nuxt",
     "build": "nuxt build",
-    "pm2": "pm2 start npm -f --name 'nuxt-demo' -- run start",
-    "start": "PORT=1200 nuxt start",
+    "pm2": "pm2 start npm --name 'nuxt' -f -- run start",
+    "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
