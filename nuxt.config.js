@@ -27,7 +27,7 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    // publicPath: "/nuxt/",
+    publicPath: "/_nuxt/",
     host: "0.0.0.0",
     port: "3000",
   },
